@@ -7,14 +7,7 @@
 			"domain": "https://adb-4235508330008269.9.azuredatabricks.net",
 			"authentication": "MSI",
 			"workspaceResourceId": "/subscriptions/36755baa-4e27-4e2f-91f3-10442b7c2092/resourceGroups/Health_Care_Project/providers/Microsoft.Databricks/workspaces/HealthCare_adb",
-			"newClusterNodeType": "Standard_F4",
-			"newClusterNumOfWorker": "1",
-			"newClusterSparkEnvVars": {
-				"PYSPARK_PYTHON": "/databricks/python3/bin/python3"
-			},
-			"newClusterVersion": "13.3.x-scala2.12",
-			"clusterOption": "Fixed",
-			"newClusterInitScripts": []
+			"existingClusterId": "0507-195754-9pbsln05"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/linkedservices"
